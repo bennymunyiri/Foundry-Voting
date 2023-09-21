@@ -10,16 +10,16 @@ Individuals associated with these addresses can then make a choice: they can eit
 When the voting period concludes, the winningProposal() function can be called to determine the proposal with the highest number of votes.
 
 This approach allows for a decentralized and transparent voting process, although it's crucial to acknowledge that challenges like voter authentication and security against manipulation still need to be addressed comprehensively.
-## Getting Started 
-     1. git
-        You'll know you did it right if you can run git --version and you see a response like git version x.x.x
-    2. foundry
-        You'll know you did it right if you can run forge --version and you see a response like forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)
+# Getting Started 
+1. git
+You'll know you did it right if you can run git --version and you see a response like git version x.x.x
+2. foundry
+You'll know you did it right if you can run forge --version and you see a response like forge 0.2.0 (816e00b 2023-03-16T00:05:26.396218Z)
 ## Usage
-    Start a local Node
-        make anvil
+Start a local Node
+     make anvil
 ## Library
-    If you're having a hard time installing the chainlink library, you can optionally run this command.
+If you're having a hard time installing the chainlink library, you can optionally run this command.
         forge install smartcontractkit/chainlink-brownie-contracts@0.6.1 --no-commit
 
 ## Deploy
